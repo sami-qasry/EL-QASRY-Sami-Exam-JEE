@@ -21,6 +21,7 @@ public class CreditDTO {
     }
 
     public void setMotif(String motif) {
+
     }
 
     public void setTypeBien(String typeBien) {

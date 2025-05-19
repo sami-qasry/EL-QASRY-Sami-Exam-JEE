@@ -50,7 +50,7 @@ public class DataInitializer implements CommandLineRunner {
         creditPersonnel.setDateDemande(LocalDate.now());
         creditPersonnel.setStatut("EN_COURS");
         creditPersonnel.setMontant(50000.0);
-        creditPersonnel.setDuree(24);
+        creditPersonnel.setDureeRemboursement(24);
         creditPersonnel.setTauxInteret(3.5);
         creditPersonnel.setMotif("Achat voiture");
         creditPersonnel.setClient(client);
@@ -62,7 +62,7 @@ public class DataInitializer implements CommandLineRunner {
         creditImmobilier.setStatut("ACCEPTE");
         creditImmobilier.setDateAcception(LocalDate.now());
         creditImmobilier.setMontant(250000.0);
-        creditImmobilier.setDuree(120);
+        creditImmobilier.setDureeRemboursement(120);
         creditImmobilier.setTauxInteret(2.5);
         creditImmobilier.setTypeBien("MAISON");
         creditImmobilier.setClient(client);
@@ -73,7 +73,7 @@ public class DataInitializer implements CommandLineRunner {
         creditPro.setDateDemande(LocalDate.now().minusDays(20));
         creditPro.setStatut("REJETE");
         creditPro.setMontant(80000.0);
-        creditPro.setDuree(36);
+        creditPro.setDureeRemboursement(36);
         creditPro.setTauxInteret(4.2);
         creditPro.setMotif("Investissement");
         creditPro.setRaisonSociale("TechCorp SARL");
