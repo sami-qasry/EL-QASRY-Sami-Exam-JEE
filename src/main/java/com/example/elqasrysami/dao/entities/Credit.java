@@ -30,4 +30,8 @@ public class Credit {
 
     @ManyToOne
     private Client client;
+
+
+    public void setDuree(int i) {
+    }
 }
