@@ -32,6 +32,4 @@ public class Credit {
     private Client client;
 
 
-    public void setDuree(int i) {
-    }
 }
